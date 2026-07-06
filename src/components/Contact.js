@@ -18,7 +18,7 @@ export default function Contact() {
 
     try {
      
-      const waNumber = '6289524187347'; 
+      const waNumber = '62895429640790'; 
       const text = `Halo Admin Tani Solution,%0A%0APerkenalkan saya:%0ANama: ${formData.nama}%0ANo WA: ${formData.nowa}%0A%0APesan:%0A${formData.pesan}`;
       
       window.open(`https://wa.me/${waNumber}?text=${text}`, '_blank');
@@ -53,20 +53,13 @@ export default function Contact() {
                     title: "Kantor Pusat",
                     desc: "Jl. Tegalsari, RT.2/RW.5, Pawang, Gayamdompo, Karanganyar, Jawa Tengah 57751",
                     action: "Buka di Maps"
-                  },
-                  {
-                    href: "https://www.google.com/maps/search/?api=1&query=Jl.+Lawu+No.357,+Popongan,+Karanganyar,+Jawa+Tengah+57715",
-                    icon: "fa-wrench",
-                    title: "Tempat Produksi",
-                    desc: "Jl. Lawu No.357, Popongan, Karanganyar, Jawa Tengah 57715",
-                    action: "Buka di Maps"
-                  },
+                  },
                   {
                     href: "https://wa.me/6289524187347",
                     icon: "fa-whatsapp", 
                     isBrand: true,
                     title: "WhatsApp Official",
-                    desc: "+62 895-2418-7347",
+                    desc: "+62 895-4296-40790",
                     action: "Chat Sekarang →"
                   },
                   {
