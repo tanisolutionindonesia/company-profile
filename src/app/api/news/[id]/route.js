@@ -31,7 +31,7 @@ async function deleteImageFromCloudinary(imageUrl) {
   }
 }
 
-export async function DELETE(request, { params }) {
+export async function DELETE({ params }) {
   try {
     const { id } = await params;
     const [rows] = await pool.query('SELECT image FROM news WHERE id = ?', [id]);

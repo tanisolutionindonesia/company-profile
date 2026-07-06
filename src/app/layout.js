@@ -98,7 +98,11 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="id" className="scroll-smooth">
+    <html 
+      lang="id" 
+      className="scroll-smooth" 
+      data-scroll-behavior="smooth"   // ← tambahkan atribut ini
+    >
       <head>
         <link
           rel="stylesheet"
@@ -110,12 +114,10 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${inter.className} bg-gray-50 text-gray-700 font-sans flex flex-col min-h-screen`}>
-
         <main className="flex-grow">
           {children}
         </main>
       </body>
-
       <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
     </html>
   );

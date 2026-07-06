@@ -90,6 +90,7 @@ export default function PrestasiClient({ initialData }) {
                           src={getImgUrl(item.image)}
                           alt="icon"
                           fill
+                          sizes="(max-width: 768px) 100vw, 50vw"
                           className="object-cover"
                         />
                       </div>
@@ -254,6 +255,7 @@ export default function PrestasiClient({ initialData }) {
                 src={selectedImage.src}
                 alt={selectedImage.title}
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain rounded-lg shadow-2xl"
               />
             </div>

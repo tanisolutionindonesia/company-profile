@@ -102,6 +102,7 @@ export default function TeknosolusiClient() {
                       src={mainImg}
                       alt="Alat Alburdat"
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-contain rounded-lg shadow-lg mix-blend-multiply dark:mix-blend-normal"
                     />
                   </motion.div>
@@ -120,6 +121,7 @@ export default function TeknosolusiClient() {
                         src={src}
                         alt={`Thumbnail ${index}`}
                         fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
                         className="object-cover"
                       />
                     </motion.div>
@@ -346,6 +348,7 @@ export default function TeknosolusiClient() {
                         src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg"
                         alt="Shopee"
                         fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
                         className="object-contain"
                       />
                     </div>
@@ -418,6 +421,7 @@ export default function TeknosolusiClient() {
                 src={mainImg}
                 alt="Full Preview"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain"
               />
             </div>

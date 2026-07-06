@@ -484,6 +484,7 @@ export default function KolaborasiClient({ initialGalleryData }) {
                               src={getImageUrl(item.image)}
                               alt={item.title}
                               fill
+                              sizes="(max-width: 768px) 100vw, 50vw"
                               className="object-cover transform group-hover:scale-110 transition duration-500"
                             />
                           </div>
@@ -547,6 +548,7 @@ export default function KolaborasiClient({ initialGalleryData }) {
                   src={getImageUrl(selectedGalleryItem.image)}
                   alt={selectedGalleryItem.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>

@@ -97,6 +97,7 @@ export default function MinilabClient() {
                   src="/minilab/minilab.webp"
                   alt="Mini Lab Teknologi Pertanian"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   priority
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />

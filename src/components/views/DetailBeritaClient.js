@@ -87,6 +87,7 @@ export default function DetailBeritaClient({ news, popularNews = [] }) {
                   src={news.image || "/placeholder.jpg"}
                   alt={news.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   priority
                   className="object-cover"
                 />
@@ -203,6 +204,7 @@ export default function DetailBeritaClient({ news, popularNews = [] }) {
                             src={item.image}
                             alt={item.title}
                             fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
                             className="object-cover"
                           />
                         </Link>

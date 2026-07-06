@@ -144,8 +144,8 @@ export default function EdusolusiClient() {
                         src={src}
                         alt={`Gallery ${idx}`}
                         fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
                         className="object-cover"
-                        sizes="(max-width: 768px) 50vw, 25vw"
                       />
                     </motion.div>
                   </StaggerItem>
@@ -228,12 +228,13 @@ export default function EdusolusiClient() {
                     <motion.div
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.5 }}
-                      className="w-full h-full"
+                      className="w-full h-full relative"
                     >
                       <Image
                         src={item.img}
                         alt={item.title}
                         fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
                         className="object-cover"
                       />
                     </motion.div>

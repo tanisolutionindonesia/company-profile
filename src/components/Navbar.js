@@ -265,6 +265,7 @@ export default function Navbar() {
                 src="/tani.webp"
                 alt="Logo Tani Solution"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-contain"
               />
             </div>

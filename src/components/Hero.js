@@ -65,6 +65,7 @@ export default function Hero({ latestNews = [] }) {
                       src={latestNews[currentIndex].image || "/placeholder.jpg"}
                       alt={latestNews[currentIndex].title}
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       priority
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -125,6 +126,7 @@ export default function Hero({ latestNews = [] }) {
                   src={defaultImageSrc}
                   alt="Pertanian Modern"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   priority
                   className="object-cover"
                 />

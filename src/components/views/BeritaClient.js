@@ -117,6 +117,7 @@ export default function BeritaClient({ initialNews }) {
                       src={featuredNews.image}
                       alt={featuredNews.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, 66vw"
                       priority
                       className="object-cover transform group-hover:scale-105 transition duration-700"
                     />
@@ -165,6 +166,7 @@ export default function BeritaClient({ initialNews }) {
                           src={news.image}
                           alt={news.title}
                           fill
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                           className="object-cover transform group-hover:scale-105 transition duration-500"
                         />
                         <div className="absolute top-3 right-3 bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm text-secondary dark:text-white text-xs font-bold px-3 py-1 rounded shadow-sm z-10">

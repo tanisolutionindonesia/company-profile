@@ -94,6 +94,7 @@ export default function KreasolusiClient() {
                   src="/kreasolusi/studio.webp"
                   alt="Studio KreaSolusi - Ruang Kreatif"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   priority
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
