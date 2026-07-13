@@ -186,7 +186,7 @@ export default function TeknosolusiClient() {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-col sm:flex-row gap-4">
                     <motion.a
-                      href="https://wa.me/6289524187347?text=Halo,%20saya%20tertarik%20dengan%20produk%20Alburdat."
+                      href="https://wa.me/62895429640790?text=Halo,%20saya%20tertarik%20dengan%20produk%20Alburdat."
                       target="_blank"
                       rel="noreferrer"
                       whileHover={{ scale: 1.05 }}
@@ -210,7 +210,7 @@ export default function TeknosolusiClient() {
                   </div>
 
                   <motion.a
-                    href="https://wa.me/6289524187347?text=Halo,%20saya%20ingin%20konsultasi%20untuk%20custom%20alat%20pertanian."
+                    href="https://wa.me/62895429640790?text=Halo,%20saya%20ingin%20konsultasi%20untuk%20custom%20alat%20pertanian."
                     target="_blank"
                     rel="noreferrer"
                     whileHover={{ scale: 1.02 }}

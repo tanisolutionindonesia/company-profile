@@ -24,7 +24,7 @@ export default function EdusolusiClient() {
     const message = form.message.value;
 
     const waMessage = `Halo Tim Edusolusi,%0ANama: ${name}%0AEmail: ${email}%0ANominal Donasi: Rp${amount}%0AMetode: ${method}%0APesan: ${message}`;
-    const waLink = `https://wa.me/6289524187347?text=${waMessage}`;
+    const waLink = `https://wa.me/62895429640790?text=${waMessage}`;
 
     window.open(waLink, "_blank");
   };
@@ -407,7 +407,7 @@ export default function EdusolusiClient() {
               Ingin Bergabung Menjadi Mitra Kami?
             </h2>
             <motion.a
-              href="https://wa.me/6289524187347?text=Halo"
+              href="https://wa.me/62895429640790?text=Halo"
               target="_blank"
               rel="noreferrer"
               whileHover={{ scale: 1.05 }}

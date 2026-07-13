@@ -24,7 +24,7 @@ const links = [
   },
   {
     title: "WhatsApp Konsultasi",
-    url: "http://wa.me/62895429640790",
+    url: "https://wa.me/62895429640790",
     logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
     style: "bg-[#25D366] text-white",
   },

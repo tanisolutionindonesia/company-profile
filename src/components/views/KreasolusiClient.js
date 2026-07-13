@@ -196,7 +196,7 @@ export default function KreasolusiClient() {
                     </li>
                   </ul>
                   <a
-                    href="https://wa.me/6289524187347?text=Halo%20Admin,%20saya%20ingin%20booking%20Self-Service%20Studio"
+                    href="https://wa.me/62895429640790?text=Halo%20Admin,%20saya%20ingin%20booking%20Self-Service%20Studio"
                     target="_blank"
                     className="block text-center bg-white text-green-800 font-bold py-3.5 rounded-xl hover:bg-gray-100 transition shadow-lg"
                   >
@@ -389,7 +389,7 @@ export default function KreasolusiClient() {
 
                 <div className="flex-1 flex flex-col justify-center">
                   <Link
-                    href="https://wa.me/6289524187347?text=Halo%20Admin,%20saya%20ingin%20booking%20Studio%20KreaSolusi"
+                    href="https://wa.me/62895429640790?text=Halo%20Admin,%20saya%20ingin%20booking%20Studio%20KreaSolusi"
                     target="_blank"
                     className="block w-full bg-green-600 text-white font-bold py-4 rounded-xl text-lg shadow-lg hover:bg-green-700 hover:shadow-green-500/30 transition transform hover:-translate-y-1 text-center"
                   >

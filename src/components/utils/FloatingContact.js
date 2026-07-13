@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 export default function FloatingContact() {
   const [isVisible, setIsVisible] = useState(false);
 
-  const phoneNumber = "6289524187347"; 
+  const phoneNumber = "62895429640790"; 
   const defaultMessage = "Halo Tani Solution, saya ingin bertanya mengenai produk/layanan Anda.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;

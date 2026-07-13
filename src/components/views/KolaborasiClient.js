@@ -145,7 +145,7 @@ export default function KolaborasiClient({ initialGalleryData }) {
                       <motion.a
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        href="https://wa.me/6289524187347"
+                        href="https://wa.me/62895429640790"
                         target="_blank"
                         rel="noreferrer"
                         className="flex-1 bg-green-600 text-white py-2 rounded-lg font-bold text-center hover:bg-green-700 transition"
@@ -261,7 +261,7 @@ export default function KolaborasiClient({ initialGalleryData }) {
                     <motion.a
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      href="https://wa.me/6289524187347"
+                      href="https://wa.me/62895429640790"
                       target="_blank"
                       rel="noreferrer"
                       className="bg-green-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition"
@@ -355,7 +355,7 @@ export default function KolaborasiClient({ initialGalleryData }) {
                       <motion.a
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        href="https://wa.me/6289524187347"
+                        href="https://wa.me/62895429640790"
                         target="_blank"
                         rel="noreferrer"
                         className="flex-1 bg-green-500 text-white py-2 rounded-lg font-bold text-center hover:bg-green-600 transition"
@@ -443,7 +443,7 @@ export default function KolaborasiClient({ initialGalleryData }) {
                     Butuh bantuan cepat?
                   </p>
                   <a
-                    href="https://wa.me/6289524187347"
+                    href="https://wa.me/62895429640790"
                     target="_blank"
                     rel="noreferrer"
                     className="text-sm font-bold text-green-600 dark:text-green-400 hover:underline flex items-center"

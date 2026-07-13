@@ -53,9 +53,10 @@ export default function Contact() {
                     title: "Kantor Pusat",
                     desc: "Jl. Tegalsari, RT.2/RW.5, Pawang, Gayamdompo, Karanganyar, Jawa Tengah 57751",
                     action: "Buka di Maps"
-                  },
+                  },
+
                   {
-                    href: "https://wa.me/6289524187347",
+                    href: "https://wa.me/62895429640790",
                     icon: "fa-whatsapp", 
                     isBrand: true,
                     title: "WhatsApp Official",
